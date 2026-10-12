@@ -3,7 +3,7 @@
 <html lang="pl-PL">
 <head>
     <meta charset="utf-8">
-    <title>Strona Internetowa</title>
+    
 </head>
 <body>
     <p align="right"> <font color="red" size="7" face="Arial"> Maks </font> </p> <br>
