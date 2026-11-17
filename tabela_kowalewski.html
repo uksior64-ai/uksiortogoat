@@ -1,15 +1,155 @@
-<!DOCTYPE html> 
-     <html lang="pl-PL"> 
-     <html> 
-            <head> 
-                   <meta charset="utf-8"> 
-                  <title>tabela_Kowalewski </title> 
-           </head> 
-            <body> 
-            Tutaj jest tabela <br>
-            A HREF="tabela_Kowalewski.html"> Tutaj jest link do tabeli </A><br> 
- <caption>  Procesory Komputerowe 2Gg1</caption>
-<thead>    tutaj kolumny nagłówka   </thead>
-           </body> 
-    </html> 
+
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>tabela_Kowalewski</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 28px;
+            font-weight: bold;
+            margin-top: 30px;
+            margin-bottom: 25px;
+        }
+
+        table {
+            width: 85%;
+            margin: auto;
+            border-collapse: collapse;
+            border: 3px solid yellow;
+        }
+
+        th, td {
+            border: 2px solid yellow;
+            padding: 12px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #00cc33;
+            color: black;
+            font-weight: normal;
+        }
+
+        .wiersz1 {
+            background-color: #ffff66;
+            color: #c9bd62;
+        }
+
+        .wiersz2 {
+            background-color: #782044;
+            color: white;
+        }
+
+        .wiersz3 {
+            background-color: #49347e;
+            color: #e9a17c;
+        }
+
+        .wiersz4 {
+            background-color: #d9d1f2;
+            color: #d99b91;
+        }
+
+        .wiersz5 {
+            background-color: #493080;
+            color: #e4c4a0;
+        }
+
+        .wiersz6 {
+            background-color: #e5a52d;
+            color: #7777aa;
+        }
+
+        .stopka {
+            background-color: #790d16;
+            color: white;
+            font-size: 28px;
+            font-weight: bold;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Procesory komputerowe – Kowalewski 2G</h1>
+
+    <table>
+
+        <tr>
+            <th>Model procesora</th>
+            <th>Liczba rdzeni</th>
+            <th>Taktowanie<br>bazowe</th>
+            <th>Pamięć cache</th>
+            <th>TDP</th>
+        </tr>
+
+        <tr class="wiersz1">
+            <td>Intel i9-13900K</td>
+            <td>24 (8P+16E)</td>
+            <td>3.0 GHz</td>
+            <td>36 MB</td>
+            <td>125 W</td>
+        </tr>
+
+        <tr class="wiersz2">
+            <td>Intel i7-12700F</td>
+            <td>12 (8P+4E)</td>
+            <td>2.1 GHz</td>
+            <td>25 MB</td>
+            <td>65 W</td>
+        </tr>
+
+        <tr class="wiersz3">
+            <td>AMD Ryzen 9 7950X</td>
+            <td>16</td>
+            <td>4.5 GHz</td>
+            <td>64 MB</td>
+            <td>170 W</td>
+        </tr>
+
+        <tr class="wiersz4">
+            <td>AMD Ryzen 7 5800X</td>
+            <td>8</td>
+            <td>3.8 GHz</td>
+            <td>32 MB</td>
+            <td>105 W</td>
+        </tr>
+
+        <tr class="wiersz5">
+            <td>Intel i5-11400F</td>
+            <td>6</td>
+            <td>2.6 GHz</td>
+            <td>12 MB</td>
+            <td>65 W</td>
+        </tr>
+
+        <tr class="wiersz6">
+            <td>Intel Pentium G6400</td>
+            <td>2</td>
+            <td>4.0 GHz</td>
+            <td>4 MB</td>
+            <td>58 W</td>
+        </tr>
+
+        <tr>
+            <td colspan="5" class="stopka">
+                Procesory komputerowe
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
+
  
